@@ -1,0 +1,11 @@
+.loader {
+    font-size: 46px ;
+    margin: 15px 46%;
+}
+.no-record-found{
+    font-size: 25px;
+    text-align: center;
+}
+.errorMessage , .mandatory , .inputError {
+    color: red;
+}

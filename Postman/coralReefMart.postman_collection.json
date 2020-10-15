@@ -1,0 +1,193 @@
+{
+	"id": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+	"name": "coralReefMart",
+	"description": "",
+	"order": [
+		"41002dde-e8ef-c4bb-750c-b89f439e37e3",
+		"1f3db1e0-fb93-50d0-e7ef-f41e7839af1b",
+		"ba2142f4-9905-272c-f137-e5c5b9bc6345",
+		"88d7d008-4d20-6209-8c9a-dc524c69c682",
+		"b5948d2a-6c37-0961-a762-b9e26207854e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1602313072084,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1f3db1e0-fb93-50d0-e7ef-f41e7839af1b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/api/auth/signin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602396600160,
+			"name": "User-Singin",
+			"description": "",
+			"collectionId": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\" : \"janakiraman\",\n\t\"password\": \"11223344\"\n}"
+		},
+		{
+			"id": "41002dde-e8ef-c4bb-750c-b89f439e37e3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/api/auth/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602395089404,
+			"name": "User-Signup",
+			"description": "{\n\t\"username\" : \"saran\",\n\t\"password\": \"11223344\"\n}",
+			"collectionId": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\" : \"ram\",\n\t\"password\": \"11223344\"\n}"
+		},
+		{
+			"id": "88d7d008-4d20-6209-8c9a-dc524c69c682",
+			"headers": "Content-Type: application/json\nAuthorization: beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjAyMzMyNzc1LCJleHAiOjE2MDI0MTkxNzV9.ddp7-Fa5oVsXnVVCbA961tAW3r8qWt7v1nj05rV6fpw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjAyMzMyNzc1LCJleHAiOjE2MDI0MTkxNzV9.ddp7-Fa5oVsXnVVCbA961tAW3r8qWt7v1nj05rV6fpw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/api/stores",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602395046299,
+			"name": "Store-List",
+			"description": "",
+			"collectionId": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+			"responses": [],
+			"rawModeData": "{\n\t\"limit\": 20,\n\t\"offset\": 0,\n\t\"searchKey\": \"Jana-Store\"\n}"
+		},
+		{
+			"id": "b5948d2a-6c37-0961-a762-b9e26207854e",
+			"headers": "Content-Type: application/json\nAuthorization: beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjAyMzE2MTg4LCJleHAiOjE2MDI0MDI1ODh9.90d--jUXz0EhUUvG7OKBJQHINGXvR6ZNG1bEdey0Bak\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjAyMzE2MTg4LCJleHAiOjE2MDI0MDI1ODh9.90d--jUXz0EhUUvG7OKBJQHINGXvR6ZNG1bEdey0Bak",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/api/getStore?ref=CRMS0002",
+			"queryParams": [
+				{
+					"key": "ref",
+					"value": "CRMS0002",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602395040474,
+			"name": "Store-GetDetailById",
+			"description": "",
+			"collectionId": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+			"responses": [],
+			"rawModeData": "{\n\t\"limit\": 20,\n\t\"offset\": 0,\n\t\"searchKey\": \"Jana-Store\"\n}"
+		},
+		{
+			"id": "ba2142f4-9905-272c-f137-e5c5b9bc6345",
+			"headers": "Content-Type: application/json\nAuthorization: beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjAyMzE2MTg4LCJleHAiOjE2MDI0MDI1ODh9.90d--jUXz0EhUUvG7OKBJQHINGXvR6ZNG1bEdey0Bak\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjAyMzE2MTg4LCJleHAiOjE2MDI0MDI1ODh9.90d--jUXz0EhUUvG7OKBJQHINGXvR6ZNG1bEdey0Bak",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/api/insertOrUpdateStore",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602395060052,
+			"name": "Store-Create/Update",
+			"description": "",
+			"collectionId": "e8498fdb-d0ad-c6b9-0ef7-04c2d470a14c",
+			"responses": [],
+			"rawModeData": "{\n\t\"storeName\" : \"Jana-Store\",\n\t\"phone\" : \"8760209695\",\n    \"address\" : \"ariyalur\",\n    \"email\" : \"ram@gmail.com\",\n    \"storeId\" : 0\n    \n}"
+		}
+	]
+}
